@@ -6,7 +6,6 @@
 /** CLASSES **/
 * {
   box-sizing: border-box;
-  text-align: center;
 }
   
 .clearfix::after {
