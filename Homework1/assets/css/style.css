@@ -84,7 +84,7 @@ a:hover {
 }
 
 a:active {
-  font-weight:bold;
+  font-weight: bold;
   color: #4aaaa5;
 }
 
@@ -150,6 +150,10 @@ button {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+}
+
+button:hover {
+  font-weight: bold;
 }
 
   
