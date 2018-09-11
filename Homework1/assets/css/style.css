@@ -15,14 +15,16 @@
 }
 
 .vl {
-    border-left: 2px solid black;
+    border: .5px solid #cccccc;
     height: 20px;
     float: left;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .centered {
-  margin: 0 auto;
   width: 960px;
+  margin: 0 auto;
 }
   
 /** IDS AND ELEMENT IN ORDER OF FLOW **/
@@ -36,40 +38,55 @@ body {
 header {
   background-color: #ffffff;
   width: 100%;
-  height: 80px;
   border-bottom: 2px solid #cccccc;
+  float: left;
+  font-size: 24px;
 }
 
-#logo {
+h1 {
   padding: 20px;
-  margin-bottom: 20px;
   color:#eee;
-  float: left; 
+  display: inline-block;
   background-color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: bold;
 }
 
 nav {
   float: right;
+  margin-top: 22px;; 
 }
 
 a {
   float: left;
-  width: 100px;
-  color: #505050;
+  color: #a3a3a3;
   background-color: #fff;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 #content {
   background-color: #ffffff;
-  clear: both;
-  overflow: auto;
+  color: #777777;
   border: 2px solid #dddddd;
-  margin-top: 10px;
+  clear: both;
+  position: relative;
+  top: 20px;
+  padding: 20px;
 }
 
-h1 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+h2 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: bold;
   color: #4aaaa5;
+  font-size: 24px;
+}
+
+hr {
+  border: .5px solid #cccccc;
+  color:  #cccccc;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 #about-pic {
@@ -90,6 +107,8 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
+  text-align: center;
+  border-top: 4px solid #4aaaa5;
 }
 
 
