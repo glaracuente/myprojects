@@ -65,6 +65,23 @@ a {
   font-size: 18px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4aaaa5;
+}
+
+a:active {
+  font-weight:bold;
+  color: #4aaaa5;
+}
+
 #content {
   background-color: #ffffff;
   color: #777777;
@@ -83,7 +100,7 @@ h2 {
 }
 
 hr {
-  border: .5px solid #cccccc;
+  border: 1px solid #cccccc;
   color:  #cccccc;
   margin-top: 12px;
   margin-bottom: 12px;
