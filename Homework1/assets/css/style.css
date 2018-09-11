@@ -96,7 +96,6 @@ a:active {
   position: relative;
   top: 20px;
   padding: 20px;
-  flex: 1 0 auto;
 }
 
 h2 {
@@ -131,8 +130,7 @@ footer {
   width: 100%;
   text-align: center;
   border-top: 4px solid #4aaaa5;
-  flex-shrink: 0;
-  z-index: 99;
+  margin-top: auto
 }
 
 input {
