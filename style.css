@@ -1,9 +1,11 @@
-a {
-    position: fixed;
-    color: black;
-    top: 50%;
-    left: 50%; 
-    text-decoration: none;
-    text-transform: uppercase;
-}
+body {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+  }
 
+section {
+    float: left;
+    margin: 20px;
+}
