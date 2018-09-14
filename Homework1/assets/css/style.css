@@ -117,7 +117,10 @@ hr {
   width: 200px;
   position: relative;
   float: left;
+}
 
+#linkedin {
+  float: right;
 }
 
 img {
@@ -179,6 +182,12 @@ img {
   bottom: 20px;
   width: 300px;
   text-align: center;
+  padding: 20px;
+  color:#eee;
+  display: inline-block;
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: bold;
 }
 
 
