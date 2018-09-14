@@ -176,7 +176,9 @@ img {
 .label973 {
   position: absolute;
   z-index: 99;
-  bottom: 0px;
+  bottom: 20px;
+  width: 300px;
+  text-align: center;
 }
 
 
