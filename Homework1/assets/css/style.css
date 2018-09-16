@@ -175,65 +175,29 @@ button:hover {
 
 
 /** PORTFOLIO **/
-
-
-#portfolio {
+.p_con{
+  display: inline-block;
   position: relative;
-  overflow: none;
-  width: 960px;
-  height: 760px;
-
-}
-#p1{
-  position: absolute;
-  width: 300px;
+  width: 35%;
   height: 240px;
-}
-
-#p2{
-  position: absolute;
-  left: 360px;
-  width: 300px;
-  height: 240px;
-}
-
-#p3{
-  position: absolute;
-  top: 260px;
-  width: 300px;
-  height: 240px;
-}
-
-#p4{
-  position: absolute;
-  top: 260px;
-  left: 360px;
-  width: 300px;
-  height: 240px;
-}
-
-#p5{
-  position: absolute;
-  top: 520px;
-  width: 300px;
-  height: 240px;
+  margin: 10px;
 }
 
 .p_img {
-  width: 300px;
-  height: 240px;
   position: absolute;
+  float: left;
+  width: 100%;
+  height: 100%;
 }
 
 .p_link {
   position: absolute;
   z-index: 99;
   bottom: 20px;
-  width: 300px;
+  width: 100%;
   text-align: center;
   padding: 20px;
   color:#eee;
-  display: inline-block;
   background-color: #4aaaa5;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
