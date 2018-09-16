@@ -3,7 +3,7 @@
  **/
 
 
-/** CLASSES **/
+/** GENERAL CLASSES **/
 * {
   box-sizing: border-box;
 }
@@ -27,7 +27,7 @@
   margin: 0 auto;
 }
   
-/** IDS AND ELEMENT IN ORDER OF FLOW **/
+/** Core Body, Header, Nav, and Footer Code **/
 
 html, body {
   height: 100%;
@@ -63,6 +63,19 @@ nav {
   margin-top: 22px;; 
 }
 
+footer {
+  background-color: #666666; 
+  padding: 20px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  border-top: 4px solid #4aaaa5;
+  margin-top: 40px;
+}
+
+
+/** LINKS **/
+
 a {
   float: left;
   color: #a3a3a3;
@@ -88,6 +101,8 @@ a:active {
   color: #4aaaa5;
 }
 
+/** CONTENT **/
+
 #content {
   background-color: #ffffff;
   color: #777777;
@@ -112,6 +127,8 @@ hr {
   margin-bottom: 12px;
 }
 
+/** ABOUT **/
+
 #about-pic {
   height: 200px;
   width: 200px;
@@ -128,79 +145,10 @@ img {
   margin-bottom: 20px;
 }
 
-#port {
-  position: relative;
-  overflow: none;
-  width: 960px;
-  height: 760px;
-
-}
-#wrapper1{
-  position: absolute;
-  width: 300px;
-  height: 240px;
-}
-
-#wrapper2{
-  position: absolute;
-  left: 360px;
-  width: 300px;
-  height: 240px;
-}
-
-#wrapper3{
-  position: absolute;
-  top: 260px;
-  width: 300px;
-  height: 240px;
-}
-
-#wrapper4{
-  position: absolute;
-  top: 260px;
-  left: 360px;
-  width: 300px;
-  height: 240px;
-}
-
-#wrapper5{
-  position: absolute;
-  top: 520px;
-  width: 300px;
-  height: 240px;
-}
-
-.test {
-  width: 300px;
-  height: 240px;
-  position: absolute;
-}
-
-.label973 {
-  position: absolute;
-  z-index: 99;
-  bottom: 20px;
-  width: 300px;
-  text-align: center;
-  padding: 20px;
-  color:#eee;
-  display: inline-block;
-  background-color: #4aaaa5;
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
-  font-weight: bold;
-}
 
 
-  
-footer {
-  background-color: #666666; 
-  padding: 20px;
-  bottom: 0px;
-  width: 100%;
-  text-align: center;
-  border-top: 4px solid #4aaaa5;
-  margin-top: 40px;
-}
+/** CONTACT **/
+
 
 input {
   color: #777777;
@@ -222,6 +170,76 @@ button {
 }
 
 button:hover {
+  font-weight: bold;
+}
+
+
+/** PORTFOLIO **/
+
+
+#portfolio {
+  position: relative;
+  overflow: none;
+  width: 960px;
+  height: 760px;
+
+}
+#p1{
+  position: absolute;
+  width: 300px;
+  height: 240px;
+}
+
+#p2{
+  position: absolute;
+  left: 360px;
+  width: 300px;
+  height: 240px;
+}
+
+#p3{
+  position: absolute;
+  top: 260px;
+  width: 300px;
+  height: 240px;
+}
+
+#p4{
+  position: absolute;
+  top: 260px;
+  left: 360px;
+  width: 300px;
+  height: 240px;
+}
+
+#p5{
+  position: absolute;
+  top: 520px;
+  width: 300px;
+  height: 240px;
+}
+
+.p_img {
+  width: 300px;
+  height: 240px;
+  position: absolute;
+}
+
+.p_link {
+  position: absolute;
+  z-index: 99;
+  bottom: 20px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  color:#eee;
+  display: inline-block;
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.p_link:hover {
+  color:#eee;
   font-weight: bold;
 }
 
